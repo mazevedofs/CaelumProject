@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D24BB8A92103A127000AC9A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24BB8A82103A127000AC9A9 /* AppDelegate.swift */; };
+		D24BB8AB2103A127000AC9A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24BB8AA2103A127000AC9A9 /* ViewController.swift */; };
+		D24BB8AE2103A127000AC9A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24BB8AC2103A127000AC9A9 /* Main.storyboard */; };
+		D24BB8B12103A127000AC9A9 /* ContatosIP67.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D24BB8AF2103A127000AC9A9 /* ContatosIP67.xcdatamodeld */; };
+		D24BB8B32103A127000AC9A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D24BB8B22103A127000AC9A9 /* Assets.xcassets */; };
+		D24BB8B62103A127000AC9A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24BB8B42103A127000AC9A9 /* LaunchScreen.storyboard */; };
+		D24BB8C12103A128000AC9A9 /* ContatosIP67Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24BB8C02103A128000AC9A9 /* ContatosIP67Tests.swift */; };
+		D24BB8CC2103A128000AC9A9 /* ContatosIP67UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24BB8CB2103A128000AC9A9 /* ContatosIP67UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D24BB8BD2103A128000AC9A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D24BB89D2103A126000AC9A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D24BB8A42103A126000AC9A9;
+			remoteInfo = ContatosIP67;
+		};
+		D24BB8C82103A128000AC9A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D24BB89D2103A126000AC9A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D24BB8A42103A126000AC9A9;
+			remoteInfo = ContatosIP67;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D24BB8A52103A127000AC9A9 /* ContatosIP67.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContatosIP67.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24BB8A82103A127000AC9A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D24BB8AA2103A127000AC9A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D24BB8AD2103A127000AC9A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D24BB8B02103A127000AC9A9 /* ContatosIP67.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ContatosIP67.xcdatamodel; sourceTree = "<group>"; };
+		D24BB8B22103A127000AC9A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D24BB8B52103A127000AC9A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D24BB8B72103A127000AC9A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D24BB8BC2103A128000AC9A9 /* ContatosIP67Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContatosIP67Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24BB8C02103A128000AC9A9 /* ContatosIP67Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContatosIP67Tests.swift; sourceTree = "<group>"; };
+		D24BB8C22103A128000AC9A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D24BB8C72103A128000AC9A9 /* ContatosIP67UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContatosIP67UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24BB8CB2103A128000AC9A9 /* ContatosIP67UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContatosIP67UITests.swift; sourceTree = "<group>"; };
+		D24BB8CD2103A128000AC9A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D24BB8A22103A126000AC9A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24BB8B92103A128000AC9A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24BB8C42103A128000AC9A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D24BB89C2103A126000AC9A9 = {
+			isa = PBXGroup;
+			children = (
+				D24BB8A72103A127000AC9A9 /* ContatosIP67 */,
+				D24BB8BF2103A128000AC9A9 /* ContatosIP67Tests */,
+				D24BB8CA2103A128000AC9A9 /* ContatosIP67UITests */,
+				D24BB8A62103A127000AC9A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D24BB8A62103A127000AC9A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D24BB8A52103A127000AC9A9 /* ContatosIP67.app */,
+				D24BB8BC2103A128000AC9A9 /* ContatosIP67Tests.xctest */,
+				D24BB8C72103A128000AC9A9 /* ContatosIP67UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D24BB8A72103A127000AC9A9 /* ContatosIP67 */ = {
+			isa = PBXGroup;
+			children = (
+				D24BB8A82103A127000AC9A9 /* AppDelegate.swift */,
+				D24BB8AA2103A127000AC9A9 /* ViewController.swift */,
+				D24BB8AC2103A127000AC9A9 /* Main.storyboard */,
+				D24BB8B22103A127000AC9A9 /* Assets.xcassets */,
+				D24BB8B42103A127000AC9A9 /* LaunchScreen.storyboard */,
+				D24BB8B72103A127000AC9A9 /* Info.plist */,
+				D24BB8AF2103A127000AC9A9 /* ContatosIP67.xcdatamodeld */,
+			);
+			path = ContatosIP67;
+			sourceTree = "<group>";
+		};
+		D24BB8BF2103A128000AC9A9 /* ContatosIP67Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D24BB8C02103A128000AC9A9 /* ContatosIP67Tests.swift */,
+				D24BB8C22103A128000AC9A9 /* Info.plist */,
+			);
+			path = ContatosIP67Tests;
+			sourceTree = "<group>";
+		};
+		D24BB8CA2103A128000AC9A9 /* ContatosIP67UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D24BB8CB2103A128000AC9A9 /* ContatosIP67UITests.swift */,
+				D24BB8CD2103A128000AC9A9 /* Info.plist */,
+			);
+			path = ContatosIP67UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D24BB8A42103A126000AC9A9 /* ContatosIP67 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24BB8D02103A128000AC9A9 /* Build configuration list for PBXNativeTarget "ContatosIP67" */;
+			buildPhases = (
+				D24BB8A12103A126000AC9A9 /* Sources */,
+				D24BB8A22103A126000AC9A9 /* Frameworks */,
+				D24BB8A32103A126000AC9A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContatosIP67;
+			productName = ContatosIP67;
+			productReference = D24BB8A52103A127000AC9A9 /* ContatosIP67.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D24BB8BB2103A128000AC9A9 /* ContatosIP67Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24BB8D32103A128000AC9A9 /* Build configuration list for PBXNativeTarget "ContatosIP67Tests" */;
+			buildPhases = (
+				D24BB8B82103A128000AC9A9 /* Sources */,
+				D24BB8B92103A128000AC9A9 /* Frameworks */,
+				D24BB8BA2103A128000AC9A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D24BB8BE2103A128000AC9A9 /* PBXTargetDependency */,
+			);
+			name = ContatosIP67Tests;
+			productName = ContatosIP67Tests;
+			productReference = D24BB8BC2103A128000AC9A9 /* ContatosIP67Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D24BB8C62103A128000AC9A9 /* ContatosIP67UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24BB8D62103A128000AC9A9 /* Build configuration list for PBXNativeTarget "ContatosIP67UITests" */;
+			buildPhases = (
+				D24BB8C32103A128000AC9A9 /* Sources */,
+				D24BB8C42103A128000AC9A9 /* Frameworks */,
+				D24BB8C52103A128000AC9A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D24BB8C92103A128000AC9A9 /* PBXTargetDependency */,
+			);
+			name = ContatosIP67UITests;
+			productName = ContatosIP67UITests;
+			productReference = D24BB8C72103A128000AC9A9 /* ContatosIP67UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D24BB89D2103A126000AC9A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = ios7531;
+				TargetAttributes = {
+					D24BB8A42103A126000AC9A9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					D24BB8BB2103A128000AC9A9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D24BB8A42103A126000AC9A9;
+					};
+					D24BB8C62103A128000AC9A9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D24BB8A42103A126000AC9A9;
+					};
+				};
+			};
+			buildConfigurationList = D24BB8A02103A126000AC9A9 /* Build configuration list for PBXProject "ContatosIP67" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D24BB89C2103A126000AC9A9;
+			productRefGroup = D24BB8A62103A127000AC9A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D24BB8A42103A126000AC9A9 /* ContatosIP67 */,
+				D24BB8BB2103A128000AC9A9 /* ContatosIP67Tests */,
+				D24BB8C62103A128000AC9A9 /* ContatosIP67UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D24BB8A32103A126000AC9A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24BB8B62103A127000AC9A9 /* LaunchScreen.storyboard in Resources */,
+				D24BB8B32103A127000AC9A9 /* Assets.xcassets in Resources */,
+				D24BB8AE2103A127000AC9A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24BB8BA2103A128000AC9A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24BB8C52103A128000AC9A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D24BB8A12103A126000AC9A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24BB8AB2103A127000AC9A9 /* ViewController.swift in Sources */,
+				D24BB8B12103A127000AC9A9 /* ContatosIP67.xcdatamodeld in Sources */,
+				D24BB8A92103A127000AC9A9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24BB8B82103A128000AC9A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24BB8C12103A128000AC9A9 /* ContatosIP67Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24BB8C32103A128000AC9A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24BB8CC2103A128000AC9A9 /* ContatosIP67UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D24BB8BE2103A128000AC9A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D24BB8A42103A126000AC9A9 /* ContatosIP67 */;
+			targetProxy = D24BB8BD2103A128000AC9A9 /* PBXContainerItemProxy */;
+		};
+		D24BB8C92103A128000AC9A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D24BB8A42103A126000AC9A9 /* ContatosIP67 */;
+			targetProxy = D24BB8C82103A128000AC9A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D24BB8AC2103A127000AC9A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D24BB8AD2103A127000AC9A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D24BB8B42103A127000AC9A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D24BB8B52103A127000AC9A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D24BB8CE2103A128000AC9A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D24BB8CF2103A128000AC9A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D24BB8D12103A128000AC9A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ContatosIP67/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caelum.ContatosIP67;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D24BB8D22103A128000AC9A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ContatosIP67/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caelum.ContatosIP67;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D24BB8D42103A128000AC9A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ContatosIP67Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caelum.ContatosIP67Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContatosIP67.app/ContatosIP67";
+			};
+			name = Debug;
+		};
+		D24BB8D52103A128000AC9A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ContatosIP67Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caelum.ContatosIP67Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContatosIP67.app/ContatosIP67";
+			};
+			name = Release;
+		};
+		D24BB8D72103A128000AC9A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ContatosIP67UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caelum.ContatosIP67UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ContatosIP67;
+			};
+			name = Debug;
+		};
+		D24BB8D82103A128000AC9A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ContatosIP67UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caelum.ContatosIP67UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ContatosIP67;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D24BB8A02103A126000AC9A9 /* Build configuration list for PBXProject "ContatosIP67" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24BB8CE2103A128000AC9A9 /* Debug */,
+				D24BB8CF2103A128000AC9A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D24BB8D02103A128000AC9A9 /* Build configuration list for PBXNativeTarget "ContatosIP67" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24BB8D12103A128000AC9A9 /* Debug */,
+				D24BB8D22103A128000AC9A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D24BB8D32103A128000AC9A9 /* Build configuration list for PBXNativeTarget "ContatosIP67Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24BB8D42103A128000AC9A9 /* Debug */,
+				D24BB8D52103A128000AC9A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D24BB8D62103A128000AC9A9 /* Build configuration list for PBXNativeTarget "ContatosIP67UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24BB8D72103A128000AC9A9 /* Debug */,
+				D24BB8D82103A128000AC9A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D24BB8AF2103A127000AC9A9 /* ContatosIP67.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D24BB8B02103A127000AC9A9 /* ContatosIP67.xcdatamodel */,
+			);
+			currentVersion = D24BB8B02103A127000AC9A9 /* ContatosIP67.xcdatamodel */;
+			path = ContatosIP67.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D24BB89D2103A126000AC9A9 /* Project object */;
+}
